@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idFundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btPadrao"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="424dp"
+        android:backgroundTint="#301876"
+        android:text="Notificação padrão"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#591818" />
+
+    <Button
+        android:id="@+id/btAbrirTela"
+        android:layout_width="149dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#301876"
+        android:text="Notificação abrir a tela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btPadrao" />
+</androidx.constraintlayout.widget.ConstraintLayout>
